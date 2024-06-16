@@ -1,0 +1,10 @@
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\bin\Debug\ListAnime.exe.config
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\bin\Debug\ListAnime.exe
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\bin\Debug\ListAnime.pdb
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.csproj.AssemblyReference.cache
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.Form1.resources
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.Properties.Resources.resources
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.csproj.GenerateResource.cache
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.csproj.CoreCompileInputs.cache
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.exe
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.pdb
