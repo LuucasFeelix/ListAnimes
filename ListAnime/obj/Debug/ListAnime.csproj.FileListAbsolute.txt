@@ -8,3 +8,5 @@ C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.csproj.Gener
 C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.csproj.CoreCompileInputs.cache
 C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.exe
 C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.pdb
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\bin\Debug\Guna.UI2.dll
+C:\Users\Luuca\source\repos\ListAnime\ListAnime\obj\Debug\ListAnime.csproj.Up2Date

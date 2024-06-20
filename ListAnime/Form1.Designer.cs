@@ -28,100 +28,92 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.painelLateral = new System.Windows.Forms.Panel();
-            this.imgListAnime = new System.Windows.Forms.PictureBox();
-            this.btnAssistido = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.painelLateral.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgListAnime)).BeginInit();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.GunaPainelLateral = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // painelLateral
+            // GunaPainelLateral
             // 
-            this.painelLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(128)))), ((int)(((byte)(144)))));
-            this.painelLateral.Controls.Add(this.button2);
-            this.painelLateral.Controls.Add(this.button1);
-            this.painelLateral.Controls.Add(this.btnAssistido);
-            this.painelLateral.Controls.Add(this.imgListAnime);
-            this.painelLateral.Location = new System.Drawing.Point(0, 0);
-            this.painelLateral.Name = "painelLateral";
-            this.painelLateral.Size = new System.Drawing.Size(215, 604);
-            this.painelLateral.TabIndex = 0;
+            this.GunaPainelLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(128)))), ((int)(((byte)(144)))));
+            this.GunaPainelLateral.Dock = System.Windows.Forms.DockStyle.Left;
+            this.GunaPainelLateral.Location = new System.Drawing.Point(0, 0);
+            this.GunaPainelLateral.Name = "GunaPainelLateral";
+            this.GunaPainelLateral.Size = new System.Drawing.Size(57, 675);
+            this.GunaPainelLateral.TabIndex = 1;
             // 
-            // imgListAnime
+            // guna2Panel1
             // 
-            this.imgListAnime.Image = global::ListAnime.Properties.Resources.Logo1;
-            this.imgListAnime.Location = new System.Drawing.Point(12, 22);
-            this.imgListAnime.Name = "imgListAnime";
-            this.imgListAnime.Size = new System.Drawing.Size(175, 47);
-            this.imgListAnime.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgListAnime.TabIndex = 0;
-            this.imgListAnime.TabStop = false;
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(128)))), ((int)(((byte)(144)))));
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox3);
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox2);
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox1);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel1.Location = new System.Drawing.Point(57, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(866, 45);
+            this.guna2Panel1.TabIndex = 2;
             // 
-            // btnAssistido
+            // guna2ControlBox1
             // 
-            this.btnAssistido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(145)))), ((int)(((byte)(161)))));
-            this.btnAssistido.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnAssistido.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnAssistido.ForeColor = System.Drawing.Color.White;
-            this.btnAssistido.Location = new System.Drawing.Point(0, 152);
-            this.btnAssistido.Name = "btnAssistido";
-            this.btnAssistido.Size = new System.Drawing.Size(187, 47);
-            this.btnAssistido.TabIndex = 1;
-            this.btnAssistido.Text = "Animes Assistidos";
-            this.btnAssistido.UseVisualStyleBackColor = false;
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(831, 0);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(35, 24);
+            this.guna2ControlBox1.TabIndex = 0;
             // 
-            // button1
+            // guna2ControlBox2
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(145)))), ((int)(((byte)(161)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(0, 271);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 47);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Animes Para Assistir";
-            this.button1.UseVisualStyleBackColor = false;
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(790, 0);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(35, 24);
+            this.guna2ControlBox2.TabIndex = 1;
             // 
-            // button2
+            // guna2ControlBox3
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(145)))), ((int)(((byte)(161)))));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(0, 393);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(187, 47);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Adicionar Anime";
-            this.button2.UseVisualStyleBackColor = false;
+            this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
+            this.guna2ControlBox3.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox3.Location = new System.Drawing.Point(749, 0);
+            this.guna2ControlBox3.Name = "guna2ControlBox3";
+            this.guna2ControlBox3.Size = new System.Drawing.Size(35, 24);
+            this.guna2ControlBox3.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(145)))), ((int)(((byte)(161)))));
-            this.ClientSize = new System.Drawing.Size(553, 604);
-            this.Controls.Add(this.painelLateral);
+            this.ClientSize = new System.Drawing.Size(923, 675);
+            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.GunaPainelLateral);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.painelLateral.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.imgListAnime)).EndInit();
+            this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel painelLateral;
-        private System.Windows.Forms.PictureBox imgListAnime;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnAssistido;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Guna.UI2.WinForms.Guna2Panel GunaPainelLateral;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
     }
 }
 
