@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.GunaPainelLateral = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnAssistidos = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnAdicionar = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnAssistindo = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnNaoAssistido = new Guna.UI2.WinForms.Guna2CircleButton();
@@ -45,7 +46,6 @@
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.btnAssistidos = new Guna.UI2.WinForms.Guna2CircleButton();
             this.GunaPainelLateral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2PanelTop.SuspendLayout();
@@ -64,6 +64,24 @@
             this.GunaPainelLateral.Name = "GunaPainelLateral";
             this.GunaPainelLateral.Size = new System.Drawing.Size(57, 564);
             this.GunaPainelLateral.TabIndex = 1;
+            // 
+            // btnAssistidos
+            // 
+            this.btnAssistidos.BorderColor = System.Drawing.Color.Transparent;
+            this.btnAssistidos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAssistidos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAssistidos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAssistidos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAssistidos.FillColor = System.Drawing.Color.Transparent;
+            this.btnAssistidos.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnAssistidos.ForeColor = System.Drawing.Color.Transparent;
+            this.btnAssistidos.Image = ((System.Drawing.Image)(resources.GetObject("btnAssistidos.Image")));
+            this.btnAssistidos.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnAssistidos.Location = new System.Drawing.Point(6, 257);
+            this.btnAssistidos.Name = "btnAssistidos";
+            this.btnAssistidos.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnAssistidos.Size = new System.Drawing.Size(47, 46);
+            this.btnAssistidos.TabIndex = 7;
             // 
             // btnAdicionar
             // 
@@ -232,24 +250,6 @@
             this.guna2ShadowPanel2.Size = new System.Drawing.Size(254, 53);
             this.guna2ShadowPanel2.TabIndex = 4;
             // 
-            // btnAssistidos
-            // 
-            this.btnAssistidos.BorderColor = System.Drawing.Color.Transparent;
-            this.btnAssistidos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAssistidos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAssistidos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAssistidos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAssistidos.FillColor = System.Drawing.Color.Transparent;
-            this.btnAssistidos.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnAssistidos.ForeColor = System.Drawing.Color.Transparent;
-            this.btnAssistidos.Image = ((System.Drawing.Image)(resources.GetObject("btnAssistidos.Image")));
-            this.btnAssistidos.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnAssistidos.Location = new System.Drawing.Point(6, 257);
-            this.btnAssistidos.Name = "btnAssistidos";
-            this.btnAssistidos.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.btnAssistidos.Size = new System.Drawing.Size(47, 46);
-            this.btnAssistidos.TabIndex = 7;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -261,6 +261,7 @@
             this.Controls.Add(this.guna2PanelTop);
             this.Controls.Add(this.GunaPainelLateral);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
